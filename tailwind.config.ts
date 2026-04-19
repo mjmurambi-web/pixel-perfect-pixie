@@ -19,6 +19,19 @@ export default {
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
+        // Raw brand tokens from the original template
+        brand: {
+          "purple-deep": "var(--brand-purple-deep)",
+          purple: "var(--brand-purple)",
+          yellow: "var(--brand-yellow)",
+          ink: "var(--brand-ink)",
+          gray: "var(--brand-gray)",
+          cream: "var(--brand-cream)",
+          "purple-darkest": "var(--brand-purple-darkest)",
+          "purple-10": "var(--brand-purple-10)",
+          "ink-5": "var(--brand-ink-5)",
+          "ink-70": "var(--brand-ink-70)",
+        },
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
